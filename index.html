@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <!--linking CSS with HTML-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!--heading of game-->
+        <h1 class="heading">Rock Paper Scissors</h1>
+    </header>
+    <main>
+        <!--inserting choices with backgroung images-->
+        <div class="choices">
+            <div class="choice" id="Rock">
+                <img src="https://www.thegreatapps.com/application/upload/Apps/2015/12/rock-paper-scissors-34.png" alt="stone">
+            </div>
+            <div class="choice" id="Paper">
+                <img src="https://www.thegreatapps.com/application/upload/Apps/2015/12/rock-paper-scissors-14.png" alt="paper">
+            </div>
+            <div class="choice" id="Scissors">
+                <img src="https://www.thegreatapps.com/application/upload/Apps/2015/12/rock-paper-scissors-81.png" alt="scissors">
+            </div>
+        </div>
+        <!--score board-->
+        <div class="score-board">
+            <div class="userChoose">
+                <p>Your Choice</p>
+                <p id="user-choice">NONE</p>
+            </div>
+            <div class="score">
+                <p>You</p>
+                <p id="user-score"><b>0</b></p>
+            </div>
+            <div class="score">
+                <p>Comp</p>
+                <p id="comp-score"><b>0</b></p>
+            </div>
+            <div class="compChoose">
+                <p>Comp Choice</p>
+                <p id="comp-choice">NONE</p>
+            </div>
+        </div>
+        <!--results box-->
+        <div class="result-container">
+            <div class="result">
+                <p>Choose your move</p>
+            </div>
+        </div>
+    </main>
+    <!--linking Javascript file with HTML-->
+    <script src="script.js"></script>
+</body>
+</html>
